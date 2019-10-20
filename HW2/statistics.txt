@@ -1,0 +1,18 @@
+Assignment 2c: Statistics Report 
+Author: William Santos 
+Date 09-23-2019
+
+Report:
+Before NLP
+=================================================================
+Number of Documents:	150
+Average Document Length:	137.54 words
+Max Document Length -->	test/15063	: 819 words
+Min Document Length -->	test/15069	: 18 words
+
+After NLP
+=================================================================
+Number of Documents:	150
+Average Document Length:	92.68666666666667 words
+Max Document Length -->	test/15063	: 563 words
+Min Document Length -->	test/15124	: 12 words

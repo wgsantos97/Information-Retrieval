@@ -1,0 +1,79 @@
+Dirichlet Prior Precision Report
+Author: William Santos
+Date: 9/30/2019
+
+Method: Dirichlet Prior
+Query: financial banking pay
+Smoothing: 1
+test/15561 : 0
+test/15596 : 1
+test/15595 : 0
+test/15061 : 1
+test/16247 : 1
+P : 3/5 = 0.6
+
+Smoothing: 50
+test/15596 : 1
+test/15561 : 0
+test/14843 : 0
+test/15595 : 0
+test/15061 : 1
+P : 2/5 = 0.4
+
+Smoothing: 100
+test/15596 : 1
+test/15561 : 0
+test/14843 : 0
+test/15894 : 1
+test/15595 : 0
+P : 2/5 = 0.4
+
+Query: financial banking analyst profitable
+Smoothing: 1
+test/15561 : 0
+test/15596 : 1
+test/15595 : 0
+test/14843 : 0
+test/15061 : 1
+P : 2/5 = 0.4
+
+Smoothing: 50
+test/15596 : 1
+test/15561 : 0
+test/14843 : 0
+test/15372 : 0
+test/16130 : 0
+P : 1/5 = 0.2
+
+Smoothing: 100
+test/14843 : 0
+test/15596 : 1
+test/15372 : 0
+test/15561 : 0
+test/16130 : 0
+P : 1/5 = 0.2
+
+Query: financial analyst profitable job high pay
+Smoothing: 1
+test/15561 : 0
+test/15596 : 1
+test/14843 : 0
+test/15595 : 0
+test/15061 : 1
+P : 2/5 = 0.4
+
+Smoothing: 50
+test/14843 : 0
+test/15596 : 1
+test/15561 : 0
+test/15372 : 0
+test/16130 : 0
+P : 1/5 = 0.2
+
+Smoothing: 100
+test/14843 : 0
+test/15596 : 1
+test/15372 : 0
+test/15561 : 0
+test/16130 : 0
+P : 1/5 = 0.2

@@ -1,0 +1,79 @@
+Jelinek Mercer Precision Report
+Author: William Santos
+Date: 9/30/2019
+
+Method: Jelinek Mercer
+Query: financial banking pay
+Smoothing: 0.3
+test/15561 : 1
+test/15596 : 1
+test/15595 : 1
+test/15061 : 1
+test/16247 : 1
+P : 5/5 = 1.0
+
+Smoothing: 0.6
+test/15561 : 1
+test/15596 : 1
+test/15595 : 1
+test/15061 : 1
+test/16247 : 1
+P : 5/5 = 1.0
+
+Smoothing: 0.9
+test/15561 : 1
+test/15596 : 1
+test/15595 : 1
+test/15061 : 1
+test/16247 : 1
+P : 5/5 = 1.0
+
+Query: financial banking analyst profitable
+Smoothing: 0.3
+test/15561 : 1
+test/15596 : 1
+test/15595 : 1
+test/14843 : 0
+test/15061 : 1
+P : 4/5 = 0.8
+
+Smoothing: 0.6
+test/15561 : 1
+test/15596 : 1
+test/15595 : 1
+test/14843 : 0
+test/15061 : 1
+P : 4/5 = 0.8
+
+Smoothing: 0.9
+test/15561 : 1
+test/15596 : 1
+test/15595 : 1
+test/14843 : 0
+test/15061 : 1
+P : 4/5 = 0.8
+
+Query: financial analyst profitable job high pay
+Smoothing: 0.3
+test/15561 : 1
+test/15596 : 1
+test/14843 : 0
+test/15595 : 1
+test/15061 : 1
+P : 4/5 = 0.8
+
+Smoothing: 0.6
+test/15561 : 1
+test/15596 : 1
+test/14843 : 0
+test/15595 : 1
+test/15061 : 1
+P : 4/5 = 0.8
+
+Smoothing: 0.9
+test/15561 : 1
+test/15596 : 1
+test/14843 : 0
+test/15595 : 1
+test/15061 : 1
+P : 4/5 = 0.8

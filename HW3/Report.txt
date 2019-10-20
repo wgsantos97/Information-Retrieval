@@ -1,0 +1,14 @@
+Assignment 3 Report
+Author: William Santos
+Date: 9/30/2019
+
+Comment:
+Overall, the results were surprisingly well-clustered. The results were far more accurate compared to the LM and tf-idf methods.
+However, that could also be due to the fact that I was inexperienced in how I implemented those algorithms. By now, I have become
+much better at programming in Python and also had help from the professor in implementing the Dirichlet and Jelinek Mercer 
+algorithms. At any rate, the Jelinek seemed to have the best precision overall. Granted, I was somewhat forgiving in how I
+graded their relevance to my search queries, but still, it gave better results.
+
+For more information regarding the precisions, please refer to the "JM_Precisions.txt" and "DP_Precisions.txt".
+For details on the data generated, please run the "hw3.py" code and it will generate a "3a Data" with the global frequency and
+inverted index as well as "3b Data" with the rankings for all the queries alongside the given smoothing values.

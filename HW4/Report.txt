@@ -1,0 +1,21 @@
+Assignment 4 Report
+Author: William Santos
+Date: 10/16/2019
+
+10.8
+Q: Give a suggestion on how to improve a ranking function for web search to take in additional page 
+    information such as the title field or page layout.
+A: This new ranking funtion can use the given queries to match content from inside the page and determine
+    similarities. For example, a ranking function can calculate the probability of a certain page being useful
+    by running a comparison between the given query and the page title.
+
+10.10
+Q: If we add a new page to the web, what happens to other existing PageRank scores? Explain.
+A: It depends. Do the existing pages link to this new page? How many of them do? Which pages does this new one link to?
+    If the pages that link to the new one are very important, then this one will likely be ranked similarly.
+
+10.12
+Q: Give a query where a high-scoring authority page could be a desired document and a query with a 
+    high-scoring hub page could be a desired document.
+A: Authority Page Query --> "Game of Thrones Season 4 Synposis" // User searches for something very specific.
+    Hub Page Query --> "Star Wars Wiki" // User searches for a literal hub of information, probably for research. Very general.

@@ -1,0 +1,62 @@
+Assignment 2: Report
+William Santos
+9/22/2019
+
+The code is programmed to generate txt files and folders with the data gathered from reuters.
+It mainly used the catergory "acq". As such, there were 800+ results. That number
+was then reduced to 150. After processing the data, the results were outputted into the following:
+- 2a Data (Folder)
+    globalFreq.txt
+    invertedIdx.txt
+- 2b Data (Folder)
+    TF_IDF Similarity Results.txt
+    Jaccard Similarity Results.txt
+- statistics.txt
+
+The following three queries run were written to imitate a search by a user who wanted to determine
+how lucrative banking is. As such, each query got more and more specific:
+- "banking"
+- "financial bank pay"
+- "financial analyst profitable"
+
+The comparisons used were the TF_IDF and Jaccard Similarities. TF_IDF was harder to implement, but the
+Jaccard was relatively straightforward. Given a list of words from both the query and the target doc,
+turn them into sets, s1 and s2 respectively, and divide their intersection by their union.
+
+After running the code, the Jaccard Similarity seems to be far less precise 
+at identifying texts that are similar based on key words. At the very least,
+the pool of results is smaller than when using the TF_IDF Similarity.
+
+Method: TF_IDF
+Query: "banking"
+Precision: 0.8
+Filename		| Similarity Rating
+======================================
+1) test/16091	| 0.761500010418809
+2) test/14843	| 0.4804530139182014
+3) test/14982	| 0.4804530139182014
+4) test/15063	| 0.4804530139182014
+
+Query: "financial bank pay"
+Precision: 6.0
+...
+Query: "financial analyst profitable"
+Precision: 4.4
+...
+
+
+Method: Jaccard
+Query: "banking"
+Precision: 0.2
+Filename		| Similarity Rating
+======================================
+1) test/15063	| 0.0021008403361344537
+
+Query: "financial bank pay"
+Precision: 4.4
+...
+Query: "financial analyst profitable"
+Precision: 3.2
+...
+
+Please refer to the generated 2a and 2b Data folders for all the data gathered by the program.

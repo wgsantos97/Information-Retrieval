@@ -1,0 +1,33 @@
+9/11/19
+William Santos
+Information Retrieval
+Dr. Doboli
+
+HW 1 Report
+1d)
+The processing yielded good results. As expected, 'the' appeared in the top 5. There are still
+a few nuances that need to be addressed to refine this process. For one, verbs have not been simplified
+to their base form, ignoring tense. So 'remember', 'remembered', and 'remembering' will appear as three different
+entries. Unsure how to best address this issue. The results are printed below and the source code can be found in hw1.py.
+Please edit line 12 of hw1.py if a different text file needs to be parsed.
+
+3)
+I have very little knowledge with regards to retrieval and text analysis applications. The most exposure I have
+relates to Pandas, and that is in a very limited capacity. My interest in information retrieval/analysis would be in the scope
+of profiling users through their search history. So given a set of terms that they inputed, use that information to infer aspects
+about the target user.
+
+
+RESULTS:
+Top 5 Most Common Words
+1) said : 462
+2) alice : 399
+3) little : 128
+4) one : 104
+5) would : 96
+Top 5 Least Common Words
+1) happy : 1
+2) remembering : 1
+3) joys : 1
+4) sorrows : 1
+5) gather : 1
